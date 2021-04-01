@@ -1,5 +1,5 @@
 ID             	z
-OP_DIVIDE      	=
+EQUALS         	=
 REAL           	3
 OP_PLUS        	+
 LPAREN         	(
@@ -13,7 +13,7 @@ REAL           	2
 RPAREN         	)
 ID             	z
 ID             	y
-OP_DIVIDE      	=
+EQUALS         	=
 REAL           	-3.141
 OP_MULTIPLY    	*
 ID             	z
