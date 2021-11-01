@@ -1,14 +1,5 @@
 # Lab 7
 
-As always:
- - Fork this repo
- - Clone your Fork
- - Add this as a remote 
-    ```
-    git remote add instructor <URL Of the instructor repo>
-    ```
- - Submit a link to your fork after you push your solution. 
-
  # Description
  This lab is the FIRST part of a parser lab.  This week we focus on lexing. 
  Eventually, we will build a parser for a simple language that supports assignments
