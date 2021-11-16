@@ -21,9 +21,9 @@ submit: check
 	git push origin master
 
 update-http:
-	git pull https://gitlab.csi.miamioh.edu/CSE465/instructor/lab03.git
+	git pull https://gitlab.csi.miamioh.edu/CSE465/instructor/lab07.git
 
 update-ssh:
-	git pull git@gitlab.csi.miamioh.edu:CSE465/instructor/lab03.git
+	git pull git@gitlab.csi.miamioh.edu:CSE465/instructor/lab07.git
 
 update: update-http
