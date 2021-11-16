@@ -1,0 +1,29 @@
+digraph G {
+    rankdir="LR";
+    node [shape=ellipse, peripheries=2]{NUM, LIT, ID};
+    node [shape=circle, peripheries=1];
+    
+    0[xlabel="start"]
+    0 -> 0[label="WS"]
+    0 -> LIT[label="=\()"];
+    
+    0 -> 4[label="*"];
+    4 -> LIT[label="*"];
+    4 -> LIT[label="ε"];
+
+    0 -> 1[label="+-"];
+    1 -> 2[label="0-9"];
+    2 -> LIT[label="ε"];
+
+    0 -> 2[label="0-9"];
+    2 -> 2[label="0-9"];
+    2 -> 3[label="."];
+    3 -> 3[label="0-9"];
+    3 -> NUM[label="ε"];
+    
+    0 -> 5[label="a-zA-Z_"];
+    5 -> 5[label="a-zA-Z0-9_"];
+    5 -> ID[label="ε"];
+
+
+}
