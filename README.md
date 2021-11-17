@@ -4,9 +4,12 @@
  This lab is the FIRST part of a parser lab.  This week we focus on lexing. 
  Eventually, we will build a parser for a simple language that supports assignments
  ```
-      var = expr
+      a = b*(c + d)**2
  ```
- Typeing an expression by itself will display the value of the expression  
+where the `**` operator is exponentiation. 
+In a final system. typeing an expression by itself will display the value of the expression.
+However for this lab, we are only focusing ont he tokenizer. 
+
 
  Tokens:
  - `ID`:  Any letter followed be a sequence of letters and numbers  
@@ -32,3 +35,10 @@ In the image, whenever you move from one state to another you add the character 
 
 Watch the lecture for a description, I will do the whole lab and you just need to follow along. 
 
+# Testing Your Work
+
+1. Make sure you have access to a csaharp compile (preferably the latest one )
+2. Please check on course discussion for any messages tagged 'lab07' to make sure you did not miss an important update
+3. Type `make check` to test your work.  There should be no errors or warnings.
+4. Make sure that your program completes within the time limit for this assignment (e.g. 60 seconds)
+5. Type `make submit` or manually commit and push your changes to submit your work. 

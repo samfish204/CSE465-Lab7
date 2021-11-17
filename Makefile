@@ -17,6 +17,7 @@ diagram.png: state-diagram.gv
 	dot state-diagram.gv -odiagram.png -Tpng
 
 submit: check
+	git add -u
 	git commit -am "Submitting"
 	git push origin master
 
